@@ -1,0 +1,20 @@
+apiVersion: route.openshift.io/v1
+kind: Route
+metadata:
+  creationTimestamp: null
+  labels:
+    app.kubernetes.io/created-by: application-service
+    app.kubernetes.io/instance: python-sample-component
+    app.kubernetes.io/managed-by: kustomize
+    app.kubernetes.io/name: python-sample-component
+    app.kubernetes.io/part-of: python-sample-app
+  name: python-sample-componentauu6
+spec:
+  path: /
+  port:
+    targetPort: 8081
+  to:
+    kind: Service
+    name: python-sample-component
+    weight: null
+status: {}
