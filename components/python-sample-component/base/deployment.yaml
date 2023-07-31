@@ -25,7 +25,7 @@ spec:
         app.kubernetes.io/instance: python-sample-component
     spec:
       containers:
-      - image: quay.io/redhat-user-workloads/sluetzen-tenant/python-sample-app/python-sample-component@sha256:387d2f0a8de5834f7d75b1c2125bdd01a83481e6b874543c2df52cc6d5a56f11
+      - image: quay.io/redhat-user-workloads/sluetzen-tenant/python-sample-app/python-sample-component@sha256:bc29da7ddf54126515a08983bcf5abe06623f28b1575c37245499843710c5a8a
         name: my-python
         ports:
         - containerPort: 8081
