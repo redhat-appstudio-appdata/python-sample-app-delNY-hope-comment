@@ -11,7 +11,7 @@ spec:
       creationTimestamp: null
     spec:
       containers:
-      - image: quay.io/redhat-user-workloads/sluetzen-tenant/python-sample-app/python-sample-component@sha256:de3650e1517944927cf8fc9448c95c9869368efb84563038f59f1fb4fc32bc99
+      - image: quay.io/redhat-user-workloads/sluetzen-tenant/python-sample-app/python-sample-component@sha256:ee5ce81246612a0ae385e94af24861f549ef41bd0ccca7dcf5cec74299c88d92
         name: my-python
         resources: {}
 status: {}
